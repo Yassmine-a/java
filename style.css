@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c07e7e;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cart-container {
+    background-color: rgb(165, 111, 111);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #a07070;
+}
+
+.quantity-btn {
+    background-color: #c9a6a6;
+    border: 1px solid #ebcfcf;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.like-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.like-btn.liked {
+    color: red;
+}
+
+.remove-btn {
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 3px;
+    color: rgb(224, 168, 168);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.total-container {
+    text-align: right;
+}
